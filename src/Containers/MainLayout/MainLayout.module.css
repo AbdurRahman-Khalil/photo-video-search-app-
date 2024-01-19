@@ -1,0 +1,12 @@
+
+
+.NavigationBar > div{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+@media(min-width:1920px){
+    .NavigationBar  a{
+        font-size: 26px;
+    }
+}

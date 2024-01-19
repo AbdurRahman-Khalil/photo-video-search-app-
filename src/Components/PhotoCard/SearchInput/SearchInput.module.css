@@ -1,0 +1,10 @@
+.SearchBarContainer{
+    margin-top: 150px;
+    text-align: center;
+}
+
+@media(max-width:700px){
+    .ButtonSpacing{
+        margin-top:20px;
+    }
+}

@@ -1,0 +1,34 @@
+.GeneralDivs{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top:24px ;
+}
+.MobileVersion{
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top:24px ;
+}
+.DesktopVersion{
+    display: none;
+}
+.ContainerClass{
+    margin-bottom: 50px;
+}
+
+
+@media (max-width:600px){
+    .ContainerClass{
+        margin-left: 10px;
+        margin-right:10px;
+    }
+
+    .DesktopVersion{
+        display: none !important;
+    }
+    .MobileVersion{
+        display: block;
+    }
+}
